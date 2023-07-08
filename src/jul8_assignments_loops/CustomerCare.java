@@ -1,4 +1,4 @@
-package jul8_ass_loops;
+package jul8_assignments_loops;
 /*
 Customer care application using switch, nested switch, laddered if and nested if
  */
