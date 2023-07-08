@@ -34,7 +34,7 @@ public class CustomerCare
                                     }
                                     else if (cus_billing_option == 2)
                                     {
-                                        System.exit(0);
+                                        System.exit(0); //this is used to terminate the current running program.
                                     }
                                 }
                                 else
