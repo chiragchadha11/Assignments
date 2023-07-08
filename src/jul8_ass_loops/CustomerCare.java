@@ -1,5 +1,7 @@
 package jul8_ass_loops;
-
+/*
+Customer care application using switch, nested switch, laddered if and nested if
+ */
 import java.util.Scanner;
 
 public class CustomerCare
@@ -61,12 +63,12 @@ public class CustomerCare
                     {
                         System.err.println("Please enter a valid character");
                     }
-                    break;
-                case 2:
+                    break; //breaking the first switch case 1
+                case 2: //case 2 for main switch
                     System.out.print("Welcome to E2E broadband services and please select one out of the following options: \n 1 for internet services \n 2 for landline phones: ");
                     if (sc.hasNextInt())
                     {
-                        int customer_brd_inp = sc.nextInt();
+                        int customer_brd_inp = sc.nextInt(); //nested loop inside the switch statement
                         if (customer_brd_inp==1)
                         {
                             System.out.println("Welcome to the internet services");
@@ -84,12 +86,12 @@ public class CustomerCare
                     {
                         System.err.println("Please enter a valid integer value");
                     }
-                    break;
-                case 3:
+                    break; //breaking the second switch statement
+                case 3: //case 3 of main switch
                     System.out.println("Welcome to the E2E DTH services and please select one out of the following services: \ntype 'package' to know your package,\ntype 'balance' to know your balance and\ntype 'exit' to exit : ");
                     if (sc.hasNext())
                     {
-                        String dth_cus_options = sc.next();
+                        String dth_cus_options = sc.next(); //creating sub switch using String as the intake from the user
                         switch (dth_cus_options)
                         {
                             case "package":
@@ -109,9 +111,9 @@ public class CustomerCare
                     {
                         System.err.println("Please enter a valid integer value");
                     }
-                    break;
+                    break; //breaking the third switch case
                 default:
-                    System.out.println("Please choose a valid option");
+                    System.out.println("Please choose a valid option"); //default for main switch
             }
 
 
