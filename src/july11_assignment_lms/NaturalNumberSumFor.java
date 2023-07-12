@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 /*
 4. Write a Java program to display n terms of natural numbers and their sum.
-problem with this code
  */
 public class NaturalNumberSumFor
 {
