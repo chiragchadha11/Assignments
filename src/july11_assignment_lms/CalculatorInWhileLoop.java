@@ -1,11 +1,10 @@
-package jul8_assignments_loops;
-
-import java.util.Scanner;
-
+package july11_assignment_lms;
 /*
 simple calculator using while loop
  */
-public class CalculatorInWhile
+import java.util.Scanner;
+
+public class CalculatorInWhileLoop
 {
     public static void main(String[] args)
     {
@@ -68,6 +67,4 @@ public class CalculatorInWhile
         }while (cus_reply.equals("y")||cus_reply.equals("Y"));
 
     }
-
-
 }

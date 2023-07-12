@@ -28,9 +28,13 @@ public class GreaterOf3Numbers
                     {
                         System.out.println(second_number + " is greater than " + first_number + " and " + third_number);
                     }
-                    else
+                    else if (third_number>first_number&&third_number>second_number)
                     {
                         System.out.println(third_number + " is greater than " + first_number + " and " + second_number);
+                    }
+                    else
+                    {
+                        System.out.println("All the numbers are equal");
                     }
 
                 }
