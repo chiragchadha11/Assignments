@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "3796b713-b5d7-4b19-9e40-8e1167b58f8f",
+		"name": "book api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21181641"
+	},
+	"item": [
+		{
+			"name": "status",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "list of books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{books}}/books",
+					"host": [
+						"{{books}}"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get single book",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "submit an order",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "API key authentication",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get all orders",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get an order",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{books}}/orders/T3u6_kzUVtwmrvYXsdm62",
+					"host": [
+						"{{books}}"
+					],
+					"path": [
+						"orders",
+						"T3u6_kzUVtwmrvYXsdm62"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update an order",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "change in order",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "{{books}}/orders/T3u6_kzUVtwmrvYXsdm62",
+					"host": [
+						"{{books}}"
+					],
+					"path": [
+						"orders",
+						"T3u6_kzUVtwmrvYXsdm62"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete an order",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "books",
+			"value": "https://simple-books-api.glitch.me"
+		},
+		{
+			"key": "key",
+			"value": "e3138833083e375f927802756e8492bee172f933dfc1d46ce01b89c4161bada1"
+		}
+	]
+}
