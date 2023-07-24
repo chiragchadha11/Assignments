@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "978354c0-306f-48ea-b939-602f7b7a2489",
+		"name": "WeatherAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21181641"
+	},
+	"item": [
+		{
+			"name": "current weather data in hindi",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=30.7333&lon=76.7794&appid=3e9b6ede158be71e86fd119fcb7375dc&units=metric&lang=hi",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "30.7333"
+						},
+						{
+							"key": "lon",
+							"value": "76.7794"
+						},
+						{
+							"key": "appid",
+							"value": "3e9b6ede158be71e86fd119fcb7375dc"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "hi"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4 day weather forcast",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "current and forecast weather",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
