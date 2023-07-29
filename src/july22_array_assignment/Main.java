@@ -31,7 +31,11 @@ public class Main
         {
             System.out.print(r+" ");
         }
-        System.out.println("=======================================");
+        System.out.println("\n=======================================");
+
+        //for reversing an array using another method
+        ArrayRev2 ob6 = new ArrayRev2();
+        ob6.revArray(new int[]{1,2,3,4,5,6,});
 
     }
 }
