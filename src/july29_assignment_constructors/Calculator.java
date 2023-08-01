@@ -10,7 +10,7 @@ public class Calculator
         this.num2 = num2;
     }
 
-    public double add()
+     double add()
     {
         return num1+num2;
     }

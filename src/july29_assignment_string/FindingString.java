@@ -19,12 +19,12 @@ public class FindingString
     {
         char[] arr = str.toCharArray();
         boolean status = false;
-        for (int i=0; i<str.length(); i++)
+        for (int i=0; i<arr.length; i++)
         {
 
             if (arr[i] == alphabet)
             {
-                System.out.println("The alphabet " + alphabet + " is present at ["+ i +"] index position");
+                System.out.println("The alphabet " + alphabet + " is present in " + str + " at ["+ i +"] index position");
                 status = true;
             }
 
@@ -36,4 +36,13 @@ public class FindingString
         }
     }
 
+    public void findString3(String str, char alphabet) {
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == alphabet) {
+                System.out.println("The alphabet " + alphabet + " is present in " + str + " at [" + i + "] index position");
+
+
+            }
+        }
+    }
 }

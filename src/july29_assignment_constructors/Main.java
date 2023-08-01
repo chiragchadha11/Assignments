@@ -4,7 +4,7 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Calculator cal = new Calculator(11, 2);
+        Calculator cal = new Calculator(222, 11);
         System.out.println("Addition: " + cal.add());
         System.out.println("Subtraction: " + cal.subtract());
         System.out.println("Multiplication: " + cal.multiply());

@@ -18,8 +18,9 @@ public class Main
 
         System.out.println("-------------------WAP to find the alphabet in string------------------------");
         FindingString fs = new FindingString();
-        fs.findString("pragra", 'd');
-        fs.findStringPreMethod("pragra", 'c');
+        fs.findString("pragra", 'a');
+        fs.findStringPreMethod("pragra", 'a');
+        fs.findString3("pragra", 'a');
 
 
     }
