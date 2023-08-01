@@ -21,7 +21,7 @@ public class Main
 
         //for search element in an array
         SearchArrayElement ob4 = new SearchArrayElement();
-        ob4.elementSearch(0,new int[]{44,66,3,9,99,88,33,11});
+        ob4.elementSearch(3,new int[]{44,66,3,9,99,88,33,11});
         System.out.println("====================================");
 
         //for reversing an array
