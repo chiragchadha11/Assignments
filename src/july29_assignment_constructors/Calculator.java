@@ -3,6 +3,10 @@ package july29_assignment_constructors;
 public class Calculator
 {
     private double num1,num2;
+    Calculator()
+    {
+  
+    }
 
     Calculator(double num1, double num2)
     {
