@@ -7,6 +7,7 @@ import august26_assignment.collections.problem1.problem_a.employee.Employee;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
+import java.util.stream.Collectors;
 
 public class ArrayListExercise
 {
@@ -22,7 +23,7 @@ public class ArrayListExercise
 
 
         //System.out.println(list1);
-
+        System.out.println("Employees with age group greater than 50 through lambda expression are: "+ list1.stream().filter(e -> e.age > 50).collect(Collectors.toList()));
         ListIterator<Employee> itr = list1.listIterator();
         List<Employee> list2 = new ArrayList<>();
         while (itr.hasNext())
